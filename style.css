@@ -89,3 +89,12 @@ ul li a {
   color: #ffff;
   font-weight: 200;
 }
+
+/* Service CSS================> */
+.service {
+  text-align: center;
+  font-size: 20px;
+}
+.service h1 {
+  font-size: 50px;
+}
