@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;300;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  background-image: url(images/Header\ BG.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+/* Navbar CSS==========> */
+nav {
+  max-width: 80%;
+  margin: auto;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+ul li {
+  margin-left: 5rem;
+  list-style: none;
+}
+ul a {
+  margin-left: 4rem;
+  color: black;
+  text-decoration: none;
+}
+ul a:hover {
+  color: #f1a501;
+  transition: ease 0.3s;
+}
+ul li a {
+  text-decoration: none;
+}
+#Sign__Up {
+  margin-right: 2rem;
+  border: 1px solid gray;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+/* Header Css================> */
+.header {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.header .header__text h5 {
+  margin-top: 4rem;
+  color: #df6951;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+.header .header__text h1 {
+  color: #181e4b;
+  font-size: 85px;
+  letter-spacing: -2px;
+  font-weight: 700;
+  line-height: 6rem;
+}
+.header .header__text p {
+  color: #181e4b;
+  font-size: 16px;
+  width: 80%;
+  margin-top: 5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+#find__out {
+  margin-right: 40px;
+}
+
+#find__out {
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #f1a501;
+  color: #ffff;
+  font-weight: 200;
+}
